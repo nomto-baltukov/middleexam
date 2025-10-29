@@ -12,7 +12,7 @@ public class Main {
         System.out.print("삼각형의 높이를 입력하세요 ");
         double height = input.nextDouble();
 
-        double area = 0.5 * base * height;
+        double area = (base * height) / 2;
         System.out.printf("삼각형의 넓이는 %.2f 입니다.%n", area);
 
     }
