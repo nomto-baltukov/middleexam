@@ -14,5 +14,6 @@ public class Main {
 
         double area = 0.5 * base * height;
         System.out.printf("삼각형의 넓이는 %.2f 입니다.%n", area);
+
     }
 }
